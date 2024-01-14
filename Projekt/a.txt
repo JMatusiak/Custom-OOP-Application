@@ -1,0 +1,30 @@
+Zadanie: Aplikacja do zarządzania zadaniami z wykorzystaniem MenuStrip
+Opis zadania:
+Twoim zadaniem jest stworzenie aplikacji Windows Forms służącej do zarządzania zadaniami, wykorzystującej kontrolkę MenuStrip do nawigacji i dostępu do funkcji.
+
+Wymagania dla oceny:
+Ocena dopuszczająca:
+
+Interfejs użytkownika zawierający kontrolkę MenuStrip z opcjami: "File" (plik) i "Tasks" (zadania).
+Pod menu "File" utwórz opcje: "New Task" (nowe zadanie), "Exit" (wyjście z aplikacji).
+Pod menu "Tasks" utwórz opcje: "Add Task" (dodaj zadanie), "Edit Task" (edytuj zadanie), "Delete Task" (usuń zadanie).
+Ocena dostateczna:
+
+Po kliknięciu "New Task" lub "Add Task" otwórz formularz pozwalający na dodanie nowego zadania (pole tekstowe na opis, wybór daty, priorytetu).
+Implementacja funkcji dodawania zadania do listy zadań.
+Ocena dobra:
+
+Możliwość edycji istniejącego zadania po wybraniu opcji "Edit Task".
+Usuwanie zadania po wybraniu opcji "Delete Task".
+Ocena bardzo dobra:
+
+Zapisywanie listy zadań do pliku tekstowego lub innego formatu (np. JSON/XML) po wybraniu opcji "Exit".
+Odczyt listy zadań z pliku podczas uruchomienia aplikacji.
+Ocena celująca:
+
+Dodanie opcji "About" pod menu "File", która wyświetli okno dialogowe z informacjami o aplikacji.
+Personalizacja wyglądu MenuStrip (niestandardowe kolory, ikony).
+Dodatkowe wskazówki:
+Zadbaj o przejrzysty układ menu, umieszczając funkcje w odpowiednich kategoriach.
+Sprawdź poprawność wprowadzanych danych i obsługę wyjątków.
+Zaimplementuj czytelny i dobrze zorganizowany kod, zgodny z zasadami programowania obiektowego.
